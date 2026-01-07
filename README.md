@@ -1,13 +1,3 @@
----
-title: README
-emoji: 💻
-colorFrom: purple
-colorTo: green
-sdk: gradio
-pinned: false
-sdk_version: 6.2.0
----
-
 <div align="center">
 
 # 🛡️ Cata Risk Lab
@@ -15,61 +5,84 @@ sdk_version: 6.2.0
 **Zurich • London • Miami**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![DOI](https://zenodo.org/badge/1129726606.svg)](https://doi.org/10.5281/zenodo.18174088)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18174088.svg)](https://doi.org/10.5281/zenodo.18174088)
 [![Compliance: nFADP](https://img.shields.io/badge/Compliance-nFADP%20Ready-red)](https://www.fedlex.admin.ch/eli/cc/2022/491/en)
 [![Compliance: EU AI Act](https://img.shields.io/badge/Compliance-EU%20AI%20Act-blue)](https://artificialintelligenceact.eu/)
+
+<br/>
+
+> *"In an era of generative hallucination, a guess is not a glitch. It is a lawsuit."*
 
 </div>
 
 ---
 
-## 🏛️ The Mission: Zero-Trust AI
-**Cata Risk Lab** is a specialized technical auditing firm focused on **Algorithmic Accountability** for high-stakes industries. We do not build "creative" AI; we build **Sovereign Gatekeepers** that prevent liability.
+## 🏛️ The Mandate: Zero-Trust AI
+**Cata Risk Lab** is a specialized technical auditing firm focused on **Algorithmic Accountability** for high-stakes industries. We operate as the "Technical Gatekeeper" for financial institutions and multinational enterprises deploying AI.
 
-In an era of generative hallucination, our mandate is simple: **If the AI cannot cite the source, the AI must fail.**
-
-### 🔬 Core Methodology
-We operate on a **"Compliance-in-the-Loop"** architecture designed for:
-* **Swiss Banking Standards (nFADP)**
-* **EU AI Act (High-Risk Classification)**
-* **UK & Australian Privacy Principles**
+We do not build "creative" chat bots. We build **Sovereign Auditors** that enforce:
+* **Data Sovereignty:** Ensuring data never crosses borders illegally (nFADP/GDPR).
+* **Citation Accuracy:** If the AI cannot cite the source, the AI must fail.
+* **Liability Containment:** Shifting risk away from the enterprise.
 
 ---
 
-## 🚀 Deployed Architectures
+## 🔬 Core Methodologies
 
-### [🛡️ Veritas: The Hallucination Auditor](https://huggingface.co/spaces/Cata-Risk-Lab/Veritas-Auditor)
-*Status: Live (v1.0.0)*
+### 1. The "Sovereign Audit" Architecture
+We deploy **Compliance-in-the-Loop** systems that sit between your users and your LLMs. These systems audit every query for regulatory violations *before* an answer is generated.
 
-Veritas is our flagship **RAG (Retrieval Augmented Generation) Auditor**. It ingests financial and regulatory documentation (PDFs) and answers queries with strict adherence to the source text.
+| Jurisdiction | Compliance Standard | Our Solution |
+| :--- | :--- | :--- |
+| **Switzerland** | **nFADP (Art. 21)** | Automated Decision Explanability & Data Residency Checks |
+| **European Union** | **EU AI Act** | High-Risk Classification & Technical Documentation |
+| **Australia** | **Privacy Act (APP 8)** | Cross-Border Disclosure Validation |
 
-* **Zero-Trust Retrieval:** Returns explicit "FAIL" verdicts for missing data.
-* **Audit Trail:** Generates citation-backed logs.
-* **Tech Stack:** `LangChain` | `Azure OpenAI` | `ChromaDB` | `Python`
+### 2. Deployed Architectures (Live)
 
-> *"A guess in a regulatory audit is not a glitch. It is a lawsuit."*
+* **[🛡️ Veritas: The Hallucination Auditor](https://github.com/dcata004/Veritas-RAG-Auditor)**
+    * *Role:* RAG Auditing Engine
+    * *Function:* Ingests financial PDFs and forces strictly cited responses. Returns `FAIL` verdicts for hallucinations.
+    * *Status:* **[Live Demo](https://huggingface.co/spaces/Cata-Risk-Lab/Veritas-Auditor)**
+
+* **[🇦🇺 Wattle Guard: Australian Sovereignty](https://github.com/dcata004/Wattle-Guard-APP-8-SOCI-Compliance-Validator)**
+    * *Role:* APP 8 Compliance Validator
+    * *Function:* Automates cross-border disclosure audits for Australian entities.
 
 ---
 
-## 🛠️ Technology Stack
-We build using "Industrial-Grade" open source and enterprise foundations:
+## 🛠️ Industrial Tech Stack
+We build strictly on enterprise-grade, auditable infrastructure.
 
-| Layer | Technology |
-| :--- | :--- |
-| **Orchestration** | LangChain, LlamaIndex |
-| **Inference** | Azure OpenAI (GPT-4o), Google Gemini 1.5 Pro |
-| **Vector Search** | ChromaDB, Azure AI Search |
-| **Deployment** | Microsoft Foundry, Hugging Face Spaces |
+<details>
+<summary><b>Click to view Technical Infrastructure</b></summary>
+<br>
+
+| Layer | Technology | Purpose |
+| :--- | :--- | :--- |
+| **Orchestration** | `LangChain` / `LlamaIndex` | Logic flow and chain-of-thought governance. |
+| **Inference** | `Azure OpenAI (GPT-4o)` | Private, firewalled reasoning engine. |
+| **Memory** | `ChromaDB` / `Azure AI Search` | Vector storage with strict access controls. |
+| **Deployment** | `Microsoft Foundry` | Enterprise-grade agent hosting. |
+| **Validation** | `CERN Methodology` | Reproducible testing protocols for AI outputs. |
+
+</details>
 
 ---
 
 ## 📬 Contact & Governance
-**Cata Risk Lab** operates as a technical due diligence partner for Enterprise Clients.
+**Cata Risk Lab** operates as a technical due diligence partner. We provide fixed-price audit packages for Shadow AI Discovery and Vendor Due Diligence.
 
-* **GitHub:** [github.com/dcata004](https://github.com/dcata004)
-* **Verification:** DOI Minted via Zenodo for all Audit Artifacts.
+* **Principal:** Anthony D. Cata
+* **Locations:** Miami (HQ) | Zurich (Partner Network)
+* **Verification:** All software artifacts are DOI Minted via Zenodo for permanent audit trails.
 
----
 <div align="center">
-<i>"Sovereignty is the new Compliance."</i>
+<br/>
+<a href="https://www.linkedin.com/in/anthonycata/">
+<img src="https://img.shields.io/badge/Connect_on-LinkedIn-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn" />
+</a>
+<a href="https://huggingface.co/Cata-Risk-Lab">
+<img src="https://img.shields.io/badge/View_Demos-Hugging_Face-orange?style=for-the-badge&logo=huggingface" alt="Hugging Face" />
+</a>
 </div>
