@@ -17,7 +17,7 @@ Miami | Serving Swiss, UK & Australian Markets
 
 ---
 
-## 🏛️ The Mandate: Zero-Trust AI
+## The Mandate: Zero-Trust AI
 **Cata Risk Lab** is a specialized technical auditing firm focused on **Algorithmic Accountability** for high-stakes industries. We operate as the "Technical Gatekeeper" for financial institutions and multinational enterprises deploying AI.
 
 We do not build "creative" chat bots. We build **Sovereign Auditors** that enforce:
@@ -27,7 +27,7 @@ We do not build "creative" chat bots. We build **Sovereign Auditors** that enfor
 
 ---
 
-## 🔬 Core Methodologies
+## Core Methodologies
 
 ### 1. The "Sovereign Audit" Architecture
 We deploy **Compliance-in-the-Loop** systems that sit between your users and your LLMs. These systems audit every query for regulatory violations *before* an answer is generated.
@@ -51,7 +51,7 @@ We deploy **Compliance-in-the-Loop** systems that sit between your users and you
 
 ---
 
-## 🛠️ Industrial Tech Stack
+## Industrial Tech Stack
 We build strictly on enterprise-grade, auditable infrastructure.
 
 <details>
@@ -70,7 +70,7 @@ We build strictly on enterprise-grade, auditable infrastructure.
 
 ---
 
-## 📬 Contact & Governance
+## Contact & Governance
 **Cata Risk Lab** operates as a technical due diligence partner. We provide fixed-price audit packages for Shadow AI Discovery and Vendor Due Diligence.
 
 * **Principal:** Anthony D. Cata
