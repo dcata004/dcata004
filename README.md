@@ -17,8 +17,14 @@ Miami | Serving Swiss, UK & Australian Markets
 
 ---
 
-## The Mandate: Zero-Trust AI
-**Cata Risk Lab** is a specialized technical auditing firm focused on **Algorithmic Accountability** for high-stakes industries. We operate as the "Technical Gatekeeper" for financial institutions and multinational enterprises deploying AI.
+## 🌍 Open Source Mission
+
+Cata Risk Lab builds **public infrastructure** for AI sovereignty. We believe compliance tools should be open goods—not luxury services sold behind closed doors.
+
+Our mission: Empower any developer to run enterprise-grade sovereignty audits in minutes, democratizing capabilities previously reserved for Fortune 500 companies.
+
+**Built with care. Powered by people. Open by design.**
+
 
 We do not build "creative" chat bots. We build **Sovereign Auditors** that enforce:
 * **Data Sovereignty:** Ensuring data never crosses borders illegally (nFADP/GDPR).
