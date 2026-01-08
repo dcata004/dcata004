@@ -1,4 +1,4 @@
-<div align="center">
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Live%20Demo-blue)](https://huggingface.co/spaces/Cata-Risk-Lab/Veritas-Auditor)<div align="center">
 
 # 🛡️ Cata Risk Lab
 ### Sovereign AI Assurance & Technical Gatekeeping
