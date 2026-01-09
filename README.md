@@ -1,8 +1,8 @@
-[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Live%20Demo-blue)](https://huggingface.co/spaces/Cata-Risk-Lab/Veritas-Auditor)<div align="center">
+<div align="center">
 
 # 🛡️ Cata Risk Lab
 ### Sovereign AI Assurance & Technical Gatekeeping
-Miami | Serving Swiss, UK & Australian Markets
+**Miami | Serving Swiss, UK & Australian Markets**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18174088.svg)](https://doi.org/10.5281/zenodo.18174088)
@@ -25,7 +25,6 @@ Our mission: Empower any developer to run enterprise-grade sovereignty audits in
 
 **Built with care. Powered by people. Open by design.**
 
-
 We do not build "creative" chat bots. We build **Sovereign Auditors** that enforce:
 * **Data Sovereignty:** Ensuring data never crosses borders illegally (nFADP/GDPR).
 * **Citation Accuracy:** If the AI cannot cite the source, the AI must fail.
@@ -33,27 +32,27 @@ We do not build "creative" chat bots. We build **Sovereign Auditors** that enfor
 
 ---
 
-## Core Methodologies
+## 🏛️ Deployed Sovereign Tools (Live)
 
-### 1. The "Sovereign Audit" Architecture
-We deploy **Compliance-in-the-Loop** systems that sit between your users and your LLMs. These systems audit every query for regulatory violations *before* an answer is generated.
+### 1. [🇨🇭 Swiss Risk Calculator](https://github.com/dcata004/AI-Compliance-Risk-Calculator)
+* **Role:** Regulatory Risk Assessment
+* **Function:** Maps AI deployments against the **Swiss nFADP** and **EU AI Act**. Calculates risk tiers based on data sensitivity and user volume.
+* **Status:** [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Live%20Demo-blue)](https://huggingface.co/spaces/Cata-Risk-Lab/Swiss-Risk-Calculator)
 
-| Jurisdiction | Compliance Standard | Our Solution |
-| :--- | :--- | :--- |
-| **Switzerland** | **nFADP (Art. 21)** | Automated Decision Explanability & Data Residency Checks |
-| **European Union** | **EU AI Act** | High-Risk Classification & Technical Documentation |
-| **Australia** | **Privacy Act (APP 8)** | Cross-Border Disclosure Validation |
+### 2. [🛡️ Veritas: The Hallucination Auditor](https://github.com/dcata004/Veritas-RAG-Auditor)
+* **Role:** RAG Auditing Engine
+* **Function:** Ingests financial PDFs and forces strictly cited responses. Returns `FAIL` verdicts for hallucinations using the Ragas framework.
+* **Status:** [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Live%20Demo-blue)](https://huggingface.co/spaces/Cata-Risk-Lab/Veritas-Auditor)
 
-### 2. Deployed Architectures (Live)
+### 3. [🇦🇺 Wattle Guard: Australian Sovereignty](https://github.com/dcata004/Wattle-Guard-APP-8-SOCI-Compliance-Validator)
+* **Role:** APP 8 Compliance Validator
+* **Function:** Automates cross-border disclosure audits for Australian entities. Detects server jurisdictions to prevent SOCI Act violations.
+* **Status:** [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Live%20Demo-blue)](https://huggingface.co/spaces/Cata-Risk-Lab/Wattle-Guard)
 
-* **[🛡️ Veritas: The Hallucination Auditor](https://github.com/dcata004/Veritas-RAG-Auditor)**
-    * *Role:* RAG Auditing Engine
-    * *Function:* Ingests financial PDFs and forces strictly cited responses. Returns `FAIL` verdicts for hallucinations.
-    * *Status:* **[Live Demo](https://huggingface.co/spaces/Cata-Risk-Lab/Veritas-Auditor)**
-
-* **[🇦🇺 Wattle Guard: Australian Sovereignty](https://github.com/dcata004/Wattle-Guard-APP-8-SOCI-Compliance-Validator)**
-    * *Role:* APP 8 Compliance Validator
-    * *Function:* Automates cross-border disclosure audits for Australian entities.
+### 4. [📜 Liability Scanner](https://github.com/dcata004/Liability-Scanner)
+* **Role:** Contract Forensics
+* **Function:** Scans vendor "Terms of Service" URLs for high-risk clauses (e.g., "Right to Train," "Perpetual License") that violate data privacy.
+* **Status:** [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Live%20Demo-blue)](https://huggingface.co/spaces/Cata-Risk-Lab/Liability-Scanner)
 
 ---
 
@@ -69,7 +68,7 @@ We build strictly on enterprise-grade, auditable infrastructure.
 | **Orchestration** | `LangChain` / `LlamaIndex` | Logic flow and chain-of-thought governance. |
 | **Inference** | `Azure OpenAI (GPT-4o)` | Private, firewalled reasoning engine. |
 | **Memory** | `ChromaDB` / `Azure AI Search` | Vector storage with strict access controls. |
-| **Deployment** | `Microsoft Foundry` | Enterprise-grade agent hosting. |
+| **Deployment** | `Hugging Face Spaces` | Public audit infrastructure. |
 | **Validation** | `CERN Methodology` | Reproducible testing protocols for AI outputs. |
 
 </details>
