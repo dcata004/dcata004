@@ -10,7 +10,7 @@ I am currently deploying forensic infrastructure at **[Cata Risk Lab](https://ww
 
 * 🔭 **Working on:** Automated hallucination detection (Veritas Engine).
 * 🛡️ **Deploying:** Sovereign identity protection for high-net-worth clients.
-* 📍 **Base:** South Miami / Zurich
+* 📍 **Base:** South Miami, USA
 
 ---
 
