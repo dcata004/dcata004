@@ -1,4 +1,4 @@
-### Anthony Cata
+### Anthony D. Cata
 **Founder & Lead Researcher at [Cata Risk Lab](https://github.com/catarisklab)**
 
 Building the immune system for the Artificial Intelligence age. Specializing in AI governance, hallucination auditing, and sovereign data protection.
